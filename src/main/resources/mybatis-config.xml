@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD SQL Map Config 3.0//EN"  
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration> 
+
+	<typeAliases>
+		<typeAlias type="com.xiaowo.dto.User" alias="User"/>
+		<!-- <typeAlias type="com.softisland.csgo.entity.system.Role" alias="Role"/>
+		<typeAlias type="com.softisland.csgo.entity.system.Menu" alias="Menu"/>
+		<typeAlias type="com.softisland.csgo.util.PageData" alias="pd"/> -->
+		<!-- 分页 -->
+		<!-- <typeAlias type="com.softisland.csgo.entity.Page" alias="Page"/> -->
+	</typeAliases>
+	
+	<!-- <plugins>
+		<plugin interceptor="com.softisland.csgo.plugin.PagePlugin">
+			<property name="dialect" value="mysql"/>
+			<property name="pageSqlId" value=".*listPage.*"/>
+		</plugin>
+	</plugins> -->      
+  
+</configuration> 
